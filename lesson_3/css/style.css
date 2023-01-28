@@ -1,0 +1,54 @@
+@import url("reset.css");
+
+* {
+	color: blue;
+}
+
+p {
+	color: brown;
+}
+
+li a {
+	color: green;
+}
+
+#h-1 {
+	color: blueviolet;
+	;
+}
+
+.paragraph {
+	color: yellow;
+}
+
+.paragraph.item {
+	color: orangered;
+}
+
+[class*="__block"] {
+	color: rgb(0, 254, 72);
+}
+
+h6 {
+	color: gray;
+}
+
+.block-three * {
+	color: black;
+}
+
+.footer-page > div {
+	color: red;
+}
+
+div.link {
+	color: green;
+}
+
+.title__text ~ p {
+	color: blue;
+}
+
+.title + p {
+	color: orange;
+}
