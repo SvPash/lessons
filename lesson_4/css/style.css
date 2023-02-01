@@ -1,0 +1,159 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400;1,800&family=Pacifico&family=Sofia+Sans+Condensed:ital,wght@0,400;0,700;1,200&display=swap");
+
+@font-face {
+	font-family: "Abaddon Cyr";
+	src: url("../fonts/AbaddonCyr.woff2") format("woff2"), url("../fonts/AbaddonCyr.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Performa Book SSi";
+	src: url("../fonts/PerformaBookSSiBook.woff2") format("woff2"), url("../fonts/PerformaBookSSiBook.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AG Benguiat Cyr";
+	src: url("../fonts/AGBenguiatCyrBook.woff2") format("woff2"), url("../fonts/AGBenguiatCyrBook.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Cormorant Infant", serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.title {
+	font-family: "EB Garamond", serif;
+	font-size: 28px;
+	font-weight: 800;
+	color: #4747ce;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+h2, h3 {
+	font-family: "Pacifico", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	color: rgba(117, 117, 211, 0.619);
+	text-align: left;
+	text-transform: capitalize;
+	text-shadow: 2px 2px 5px #e5fe04;
+}
+
+.header-menu-list {
+	font-family: "EB Garamond", serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: rgba(54, 54, 96, 0.619);
+	text-transform: lowercase;
+}
+
+.title-block > p {
+	font-family: "Bad Script", cursive;
+	font-weight: 400;
+	line-height: 1.7;
+	text-indent: 20px;
+	text-align: justify;
+}
+
+h4 {
+	font-family: "Nunito", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: italic;
+	color: #9500ff;
+	text-shadow: 2px 2px 5px #1dfe04, -2px -2px 5px #f1fe04;
+}
+
+h5 {
+	font-family: "Sofia Sans Condensed", "Nunito", sans-serif;	
+	font-weight: 700;
+	text-decoration: overline;
+	line-height: 1.5;
+}
+
+
+#list-11 ~ p {
+	font-family: "Cormorant Infant", serif;
+	font-weight: 700;
+	text-align: right;
+	word-spacing: 10px;
+}
+
+#list-12 + p {
+	font-family: "Sofia Sans Condensed", sans-serif;
+	font-weight: 200;
+	text-align: justify;
+	text-decoration: underline;
+}
+
+.post-title1 p {
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.post-title2 {
+	font-family: "EB Garamond", serif;
+	font-weight: 800;
+	text-align: center;
+	line-height: 20px;
+	color: #ffb35c;
+}
+
+
+.paragraph.item {
+ color: #f60808;
+ font-family: "Performa Book SSi", serif;
+ text-transform: uppercase;
+}
+
+.block-four, .block-five {
+	font-family: "Abaddon Cyr", serif;
+	color: #ff00ea;
+	font-size: 20px;
+}
+
+.block-six>p {
+	font-family: "AG Benguiat Cyr", serif;
+	color: #9500ff;
+	text-decoration: underline;
+	text-align: justify;
+	text-indent: 25px;
+}
+
+.footer-page {
+	font-size: 20px;
+	line-height: 30px;
+	font-family: "Nunito", sans-serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+.text {
+	font-family: "Sofia Sans Condensed", "Nunito", sans-serif;	
+	font-weight: 700;
+}
+
+.citation {
+	font-family: "Pacifico", cursive;
+	font-size: 24px;
+	font-weight: 400;
+	color: #ff8800;
+	text-align: center;
+	text-shadow: 2px 2px 5px #e5fe04;
+}
+
+
