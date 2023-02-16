@@ -113,7 +113,7 @@ li {
 /* Завдання 3 */
 
 .sound {
-	background: linear-gradient(115deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 63%, rgba(48,86,211,0.06) 63%), linear-gradient(115deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 68%, rgba(48,86,211,0.08) 68%) #F4F7FF;
+	background: linear-gradient(115deg, rgba(0,0,0,0) 63%, rgba(48,86,211,0.06) 63%, rgba(0,0,0,0) 100%), linear-gradient(115deg, rgba(0,0,0,0) 68%, rgba(48,86,211,0.08) 68%, rgba(0,0,0,0) 100%) #F4F7FF;
 }
 
 .sound__conteiner {
