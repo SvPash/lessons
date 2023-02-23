@@ -1,0 +1,43 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Inter:700&display=swap);
+
+main {
+	background: linear-gradient(0deg, rgba(134,34,195,1) 0%, rgba(225,74,40,0.7) 51%, rgba(253,219,45,1) 100%);
+}
+
+.main {
+	max-width: 1200px;
+	padding: 100px 15px;
+	margin: 0px auto;
+	font-size: 0;
+}
+
+[class*="__page"]:not(:last-child) {
+	margin-bottom: 100px;
+}
+
+.icon__page *:not(:last-child){
+	margin-bottom: 30px;
+}
+
+.title {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 45px;
+	max-width: 900px;
+	text-align: center;
+	margin: 0px auto 30px;
+}
+
+.title:hover {
+	font-size: 44px;
+	color: #c0c0c0;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+img {
+	max-width: 100%;
+	padding: 5px;
+}
